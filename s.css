@@ -9,7 +9,8 @@
 
 body {
     height: 100vh;
-    background-color: rgb(51, 29, 44); /* Dark Plum Background */
+    background-color: rgb(51, 29, 44);
+    /* Dark Plum Background */
 }
 
 main {
@@ -25,7 +26,8 @@ aside {
     flex-direction: column;
     height: 100%;
     font-size: 1.1rem;
-    background-color: rgb(63, 46, 62); /* Mauve Background */
+    background-color: rgb(63, 46, 62);
+    /* Mauve Background */
     backdrop-filter: blur(20px);
 }
 
@@ -40,7 +42,8 @@ aside li {
     display: flex;
     padding: 20px;
     gap: 10px;
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
     align-items: center;
     cursor: pointer;
     position: relative;
@@ -48,7 +51,8 @@ aside li {
 }
 
 aside li:hover {
-    color: rgb(167, 130, 149); /* Rose Taupe Hover */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Hover */
 }
 
 aside li::after {
@@ -66,7 +70,8 @@ aside li i {
 }
 
 .activeLink {
-    color: rgb(167, 130, 149); /* Rose Taupe Active Link */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Active Link */
 }
 
 .mySwiper {
@@ -75,9 +80,11 @@ aside li i {
 }
 
 .home-slide {
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
     display: flex;
-    background-color: rgb(63, 46, 62); /* Mauve Background */
+    background-color: rgb(63, 46, 62);
+    /* Mauve Background */
 }
 
 .HomeContent {
@@ -121,7 +128,8 @@ aside li i {
     width: 150px;
     height: 10px;
     border: none;
-    background: rgb(167, 130, 149); /* Rose Taupe Accent */
+    background: rgb(167, 130, 149);
+    /* Rose Taupe Accent */
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -130,7 +138,8 @@ aside li i {
     width: 10px;
     height: 120px;
     border-bottom-left-radius: 3px;
-    background: rgb(167, 130, 149); /* Rose Taupe Accent */
+    background: rgb(167, 130, 149);
+    /* Rose Taupe Accent */
     border: none;
     border-bottom-right-radius: 3px;
 }
@@ -149,11 +158,13 @@ aside li i {
 
 .HomeContent h1 .stylized-name {
     font-weight: 700;
-    color: rgb(167, 130, 149); /* Rose Taupe Accent */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Accent */
 }
 
 .proffesions {
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
 }
 
 .HomeContent .heroline {
@@ -177,15 +188,19 @@ aside li i {
     font-weight: 500;
     margin: 5px;
     cursor: pointer;
-    background-color: rgb(51, 29, 44); /* Dark Plum Button Background */
-    color: rgb(239, 225, 209); /* Beige Text */
+    background-color: rgb(51, 29, 44);
+    /* Dark Plum Button Background */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
     border-radius: 5px;
 }
 
 .buttonGroup button:hover,
 .primary:hover {
-    background-color: rgb(167, 130, 149); /* Rose Taupe Background on Hover */
-    color: rgb(51, 29, 44); /* Dark Plum Text on Hover */
+    background-color: rgb(167, 130, 149);
+    /* Rose Taupe Background on Hover */
+    color: rgb(51, 29, 44);
+    /* Dark Plum Text on Hover */
 }
 
 .slide-help {
@@ -205,12 +220,14 @@ aside li i {
     width: 80vw;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(63, 46, 62); /* Mauve Background */
+    background-color: rgb(63, 46, 62);
+    /* Mauve Background */
 }
 
 .swiper-slide {
     width: 100%;
-    background-color: rgb(63, 46, 62); /* Mauve Background */
+    background-color: rgb(63, 46, 62);
+    /* Mauve Background */
     height: 100%;
 }
 
@@ -218,13 +235,15 @@ aside li i {
     width: 100%;
     height: 100%;
     padding: 100px;
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
 }
 
 .heading {
     padding: 20px 10px;
     font-size: 2.5rem;
-    color: rgb(167, 130, 149); /* Rose Taupe Heading */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Heading */
 }
 
 .about-us h3 {
@@ -262,7 +281,8 @@ aside li i {
 }
 
 .about-me-table span {
-    color: rgb(167, 130, 149); /* Rose Taupe Text */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Text */
     font-weight: bold;
     margin-right: 5px;
 }
@@ -284,7 +304,8 @@ aside li i {
 }
 
 .skill-bar p {
-    color: rgb(167, 130, 149); /* Rose Taupe Text */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Text */
     font-weight: bold;
     margin: 10px;
 }
@@ -292,19 +313,22 @@ aside li i {
 .skill-bar .bar {
     width: 100%;
     height: 15px;
-    background-color: rgb(63, 46, 62); /* Mauve Background */
+    background-color: rgb(63, 46, 62);
+    /* Mauve Background */
     border-radius: 20px;
 }
 
 .active-bar {
-    background-color: rgb(167, 130, 149); /* Rose Taupe Active Bar */
+    background-color: rgb(167, 130, 149);
+    /* Rose Taupe Active Bar */
     height: 100%;
     width: auto;
     border-radius: 20px;
 }
 
 .services {
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
     display: grid;
     grid-template-columns: repeat(3, calc(34% - 10px));
     grid-template-rows: 100px calc(50% - 50px) calc(50% - 50px);
@@ -332,7 +356,8 @@ aside li i {
 .services .service i {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: rgb(167, 130, 149); /* Rose Taupe Icon */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Icon */
 }
 
 .services .service h3 {
@@ -341,13 +366,16 @@ aside li i {
 
 .services .service:hover {
     transform: scale(1.05);
-    background-color: rgb(167, 130, 149); /* Rose Taupe Background on Hover */
-    color: rgb(51, 29, 44); /* Dark Plum Text on Hover */
+    background-color: rgb(167, 130, 149);
+    /* Rose Taupe Background on Hover */
+    color: rgb(51, 29, 44);
+    /* Dark Plum Text on Hover */
 }
 
 /* Services Section */
 .services {
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
     display: grid;
     grid-template-columns: repeat(3, calc(34% - 10px));
     grid-template-rows: 100px calc(50% - 50px) calc(50% - 50px);
@@ -357,7 +385,8 @@ aside li i {
 
 .services .heading {
     grid-column: 1/span 3;
-    color: rgb(167, 130, 149); /* Rose Taupe Heading */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Heading */
 }
 
 .services .service {
@@ -371,29 +400,35 @@ aside li i {
     backdrop-filter: blur(10px);
     flex-direction: column;
     transition-duration: 0.25s;
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
 }
 
 .services .service i {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: rgb(167, 130, 149); /* Rose Taupe Icon */
+    color: rgb(167, 130, 149);
+    /* Rose Taupe Icon */
     transition: color 0.25s;
 }
 
 .services .service h3 {
     margin-bottom: 10px;
-    color: rgb(239, 225, 209); /* Beige Text */
+    color: rgb(239, 225, 209);
+    /* Beige Text */
 }
 
 .services .service:hover {
     transform: scale(1.05);
-    background-color: rgb(167, 130, 149); /* Rose Taupe Background on Hover */
-    color: rgb(51, 29, 44); /* Dark Plum Text on Hover */
+    background-color: rgb(167, 130, 149);
+    /* Rose Taupe Background on Hover */
+    color: rgb(51, 29, 44);
+    /* Dark Plum Text on Hover */
 }
 
 .services .service:hover i {
-    color: rgb(51, 29, 44); /* Dark Plum Icon on Hover */
+    color: rgb(51, 29, 44);
+    /* Dark Plum Icon on Hover */
 }
 
 
@@ -401,7 +436,7 @@ aside li i {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 33%);
-    padding:100px;
+    padding: 100px;
     grid-template-rows: 100px calc(50% - 50px) calc(50% - 50px);
 }
 
@@ -424,17 +459,21 @@ aside li i {
     padding: 5px;
     border-radius: 15px;
 }
+
 .gallery .project:hover {
     transform: scale(1.05);
-    background-color: rgb(167, 130, 149); /* Rose Taupe Background on Hover */
-    color: rgb(51, 29, 44); /* Dark Plum Text on Hover */
+    background-color: rgb(167, 130, 149);
+    /* Rose Taupe Background on Hover */
+    color: rgb(51, 29, 44);
+    /* Dark Plum Text on Hover */
 }
+
 .gallery .project img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     object-fit: cover;
-    border:none;
+    border: none;
 }
 
 .contactMe {
@@ -442,13 +481,13 @@ aside li i {
     grid-template-columns: 20% 80%;
     grid-template-rows: 80px calc(25% - 20px) calc(25% - 20px) calc(25% - 20px) calc(25% - 20px);
     position: relative;
-    padding:100px;
+    padding: 100px;
 }
 
 .contactMe h1 {
     grid-column: 1/span 3;
-    font-size:2.5rem;
-    padding:30px;
+    font-size: 2.5rem;
+    padding: 30px;
 }
 
 .contactMe form {
@@ -468,7 +507,7 @@ aside li i {
 .contactinfo i {
     padding: 10px;
     font-size: 2.5rem;
-    color:rgb(239, 225, 209);
+    color: rgb(239, 225, 209);
     margin: 20px auto;
 }
 
@@ -518,49 +557,64 @@ aside li i {
     font-size: 1.1rem;
     border-radius: 10px;
     resize: none;
-    border:none;
     border: none;
-    color:white;
+    border: none;
+    color: white;
     background-color: #212529;
 }
 
 .contactMe form textarea:focus {
     border: 1px solid rgb(239, 225, 209) !important;
 }
-.contactMe button{
+
+.contactMe button {
     grid-column: 1/span 2;
-    margin:20px auto ;
+    margin: 20px auto;
 
 }
-footer{
-    position:absolute;
-    bottom:0px;
-    right:0px;
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     text-align: center;
-    color:white;
-    width:100%;
+    color: white;
+    width: 100%;
     font-weight: 200;
     font-size: 0.8rem;
 }
-footer li{
-    padding:10px;
+
+footer li {
+    padding: 10px;
 }
-form h2 .SocialLinks{
-    padding:5px;
-    width:fit-content;
-    margin-left:auto;
-    margin-right:10px;
+
+form h2 .SocialLinks {
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 10px;
     background-color: #212529;
     border-radius: 30px;
 }
-form h2 .SocialLinks i{
-    padding:10px;
+
+form h2 .SocialLinks i {
+    padding: 10px;
     border-radius: 50%;
     transition-duration: 0.25s;
 }
-form h2 .SocialLinks i:hover{
+
+form h2 .SocialLinks i:hover {
     background-color: rgb(51, 29, 44);
 }
-.about-us{
+
+.about-us {
     overflow: auto;
+}
+
+
+a {
+    color: inherit;
+    
+    text-decoration: none;
+    
 }
